@@ -22,9 +22,6 @@
 
     "chai-friendly/no-unused-expressions": "error",
 
-    "chai-expect/missing-assertion": "warn",
-    "chai-expect/terminating-properties": "warn",
-
     "import/newline-after-import": "warn",
     "import/no-absolute-path": "warn",
     "import/no-dynamic-require": "warn",

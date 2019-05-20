@@ -15,13 +15,12 @@ official ESLint website.
 Run the following command:
 
 ```bash
-yarn add --dev @first-lego-league/eslint-config \\
-  eslint-plugin-chai-expect \\
-  eslint-plugin-chai-friendly \\
-  eslint-config-standard \\
-  eslint-plugin-import \\
-  eslint-plugin-node \\
-  eslint-plugin-promise \\
+yarn add --dev @first-lego-league/eslint-config \
+  eslint-plugin-chai-friendly \
+  eslint-config-standard \
+  eslint-plugin-import \
+  eslint-plugin-node \
+  eslint-plugin-promise \
   eslint-plugin-standard
 ```
 
