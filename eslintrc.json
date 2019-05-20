@@ -44,7 +44,11 @@
     ],
 
     "node/exports-style": [ "warn", "exports" ],
-    "node/no-unsupported-features": "warn",
+    "node/no-unsupported-features/es-builtins": "warn",
+    "node/no-unsupported-features/es-syntax": [ "warn", {
+      "ignores": [ "modules" ]
+    }],
+    "node/no-unsupported-features/node-builtins": "warn",
     "node/shebang": "warn",
 
     "promise/catch-or-return": ["warn", {
