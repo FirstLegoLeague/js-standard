@@ -16,7 +16,7 @@ Run the following command:
 
 ```bash
 yarn add --dev @first-lego-league/eslint-config \
-  eslint-plugin-chai-friendly \
+  eslint
   eslint-config-standard \
   eslint-plugin-import \
   eslint-plugin-node \
@@ -35,4 +35,41 @@ extends: "@first-lego-league"
 You can override settings from the shareable config by adding them directly into your
 `.eslintrc` file.
 
+## Additional Standards
+
+### React / JSX
+
+Add the following plugins to your package.json:
+```bash
+yarn add --dev \
+  eslint-config-standard-jsx \
+  eslint-plugin-react
+```
+
+Then, add this to your `.eslintrc.yml` file:
+
+```yml
+extends:
+  - "@first-lego-league"
+  - "@first-lego-league/eslint-config/jsx"
+```
+
+
+### Tests (Mocha + Chai-expect)
+
+Add the following plugins to your package.json:
+```bash
+yarn add --dev \
+  eslint-plugin-chai-friendly \
+  eslint-plugin-chai-expect \
+  eslint-plugin-mocha
+```
+
+Then, add this to your `.eslintrc.yml` file:
+
+```yml
+extends:
+  - "@first-lego-league"
+  - "@first-lego-league/eslint-config/tests"
+```
 

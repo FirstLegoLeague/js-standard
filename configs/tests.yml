@@ -1,0 +1,32 @@
+env:
+  mocha: true
+
+plugins:
+  - chai-expect
+  - chai-friendly
+  - mocha
+
+rules:
+  no-unused-expressions: off
+
+  chai-expect/no-inner-compare: error
+  chai-expect/missing-assertion: error
+  chai-expect/terminating-properties: error
+
+  chai-friendly/no-unused-expressions: error
+
+  mocha/handle-done-callback: error
+  mocha/max-top-level-suites: error
+  mocha/no-exclusive-tests: warn
+  mocha/no-global-tests: error
+  mocha/no-identical-title: error
+  mocha/no-nested-tests: error
+  mocha/no-pending-tests: error
+  mocha/no-return-and-callback: error
+  mocha/no-setup-in-describe: error
+  mocha/no-sibling-hooks: error
+  mocha/no-skipped-tests: warn
+  mocha/no-top-level-hooks: error
+  mocha/prefer-arrow-callback: error
+  mocha/no-async-describe: error
+

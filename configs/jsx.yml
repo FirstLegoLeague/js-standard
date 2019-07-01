@@ -1,0 +1,9 @@
+extends: standard-jsx
+
+parserOptions:
+  env:
+    browser: true
+
+globals:
+  WebSocket: true
+  localStorage: true
