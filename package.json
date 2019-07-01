@@ -1,5 +1,5 @@
 {
-  "name": "@first-lego-league/eslint-config",
+  "name": "eslint-config-first-lego-league",
   "version": "0.1.0",
   "description": "ESLint Config for all JavaScript Official Projects",
   "main": "index.js",
