@@ -12,6 +12,13 @@
       "as-needed",
       { "requireForBlockBody": false }
     ],
+    "new-cap": [
+      "error",
+      {
+        "newIsCap": true,
+        "capIsNew":true
+      }
+    ],
     "no-shadow": "warn",
     "no-unused-expressions": "off",
     "no-var": "warn",
