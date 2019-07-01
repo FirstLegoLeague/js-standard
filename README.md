@@ -15,7 +15,7 @@ official ESLint website.
 Run the following command:
 
 ```bash
-yarn add --dev @first-lego-league/eslint-config \
+yarn add --dev eslint-config-first-lego-league \
   eslint
   eslint-config-standard \
   eslint-plugin-import \
@@ -27,7 +27,7 @@ yarn add --dev @first-lego-league/eslint-config \
 Then, add this to your `.eslintrc.yml` file:
 
 ```yml
-extends: "@first-lego-league"
+extends: first-lego-league
 ```
 
 *Note: We omitted the `/eslint-config` suffix since it is automatically assumed by ESLint.*

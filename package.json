@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-first-lego-league",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "ESLint Config for all JavaScript Official Projects",
   "main": "index.js",
   "repository": "git@github.com:FirstLegoLeague/js-standard",
