@@ -16,7 +16,7 @@ Run the following command:
 
 ```bash
 yarn add --dev eslint-config-first-lego-league \
-  eslint
+  eslint \
   eslint-config-standard \
   eslint-plugin-import \
   eslint-plugin-node \
